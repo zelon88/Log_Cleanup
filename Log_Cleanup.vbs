@@ -1,5 +1,5 @@
-'File Name: Logon.vbs
-'Version: v1.0, 1/26/2013
+'File Name: Log_Cleanup.vbs
+'Version: v1.1, 1/31/2013
 'Author: Justin Grimes, 1/26/2023
 
 ' --------------------------------------------------
@@ -7,7 +7,7 @@
 Option Explicit
 'On Error Resume Next
 Dim fileSystem, objFso, oShell, userName, computerName, strSafeDate, strSafeDateA, strSafeTime, strSafeTimeA, strDateTime, logfile, objFolder, companyName, result, _ 
-  objFile, strFolderPath, intDaysOlderThan, outputData, error, startMessage, message, dataMessage, intMessage, fileList, logPath, appPath, companyAbbr, objLogfile
+  objFile, strFolderPath, intDaysOlderThan, outputData, error, startMessage, message, dataMessage, intMessage, fileList, logPath, companyAbbr, objLogfile
 ' --------------------------------------------------
 
 ' --------------------------------------------------
@@ -21,8 +21,6 @@ Set fileSystem = CreateObject("Scripting.FileSystemObject")
 'Company Specific variables.
 'Change the following variables to match the details of your organization.
 
-'The "appPath" is the full absolute path for the script directory, with trailing slash.
-appPath = "\\SERVER\Scripts\Logon\"
 'The "logPath" is the full absolute path for where network-wide logs are stored.
 logPath = "\\SERVER\Logs"
 'The "companyName" the the full, unabbreviated name of your organization.
