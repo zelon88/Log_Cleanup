@@ -8,9 +8,9 @@ AUTHOR: Justin Grimes
 
 ORIGINAL VERSION DATE: 1/26/2023
 
-CURRENT VERSION DATE: 1/26/2023
+CURRENT VERSION DATE: 1/31/2023
 
-VERSION: v1.0
+VERSION: v1.1
 
 
 DESCRIPTION: A script to automate the cleanup of files that are older than a specified number of days.
