@@ -49,7 +49,7 @@ intMessage = startMessage&dataMessage
 ' --------------------------------------------------
 
 ' --------------------------------------------------
-'A function to create a log file is set.
+'A function to create a log file.
 'Returns "True" if logfile exists, "False" on error.
 Function CreateLog(logfile, message)
   If message <> "" Then
@@ -62,6 +62,7 @@ End Function
 
 ' --------------------------------------------------
 'A function to delete files contained within a given path that are older than a specified number of days.
+'Returns a list of files that were deleted.
 Function DeleteFiles(path, days)
   Set objFolder = objFso.GetFolder(path)
   outputData = vbNewLine
