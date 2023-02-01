@@ -2,6 +2,14 @@ Log_Cleanup Changelog
 
 ----------------------------------------
 COMMIT - 1/31/2023 
+v1.1 - Remove unused variable.
+
+-v1.1.
+-Remove unused appPath variable. 
+-Update name of script in uppermost comment.
+
+----------------------------------------
+COMMIT - 1/31/2023 
 v1.0 - Add script.
 
 -v1.0.
